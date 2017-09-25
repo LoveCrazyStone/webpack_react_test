@@ -1,0 +1,16 @@
+@import '../../../../static/css/global.less';
+.myheader{
+    height: @headerheight;
+    color:@textcolor;
+    font-size: @titlesize;
+    .header_logo{
+        float: left;
+        margin-left: 5%;
+        img{
+            position:relative;
+            top: ((@headerheight - @logoheight)/2);
+            margin-right:5px;
+            width: @logoheight;
+        }
+    }
+}
